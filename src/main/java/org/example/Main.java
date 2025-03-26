@@ -50,9 +50,5 @@ public class Main {
         } catch (MessagingException e) {
             throw new RuntimeException(e);
         }
-
-
-
-
     }
 }
