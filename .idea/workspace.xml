@@ -4,29 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dfc6ff2-3fe1-431a-98a4-ae38b232242f" name="Changes" comment="Automatic Mail project is build for studies objectives">
+    <list default="true" id="8dfc6ff2-3fe1-431a-98a4-ae38b232242f" name="Changes" comment="Automatic Mail project is build for studies objectives, commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AndreLuisT7"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AndreLuisT7&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AndreLuisT7/AutomaticMail.git",
-    "accountId": "c9862d23-42ea-4df3-8cb6-9d7242c63261"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AndreLuisT7/AutomaticMail.git&quot;,
+    &quot;accountId&quot;: &quot;c9862d23-42ea-4df3-8cb6-9d7242c63261&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -91,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742956349688</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Automatic Mail project is build for studies objectives, commit">
+      <option name="closed" value="true" />
+      <created>1742956826470</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742956826470</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,7 +135,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Automatic Mail project is build for studies objectives" />
-    <option name="LAST_COMMIT_MESSAGE" value="Automatic Mail project is build for studies objectives" />
+    <MESSAGE value="Automatic Mail project is build for studies objectives, commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Automatic Mail project is build for studies objectives, commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,36 +12,39 @@ import javax.mail.internet.MimeMessage;
 public class Main {
     public static void main(String[] args) {
         Properties p = new Properties();
+        Input in = new Input();
+
+
+        in.inputar();
 
         p.put("mail.smtp.host", "smtp.gmail.com");
         p.put("mail.smtp.socketFactory.port", "465");
         p.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
         p.put("mail.smtp.auth", "true");
-        p.put("mail.smtp.port", "465");
+
         p.put("mail.smtp.ssl.protocols", "TLSv1.2");
 
         Session session = Session.getDefaultInstance(p,
                 new javax.mail.Authenticator() {
                     protected PasswordAuthentication getPasswordAuthentication()
                     {
-                        return new PasswordAuthentication("seuEmail@gmail.com",
-                                "suaSenha");
+                        return new PasswordAuthentication(in.login,
+                                in.password);
                     }
                 });
         session.setDebug(true);
-
         try {
 
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("seuEmail@gmail.com"));
+            message.setFrom(new InternetAddress(in.login));
             //Remetente
 
             Address[] toUser = InternetAddress
-                    .parse("seuAmigo@gmail.com, seuColega@icloud.com");
+                    .parse(in.destinatario);
 
             message.setRecipients(Message.RecipientType.TO, toUser);
-            message.setSubject("Assunto");//Assunto
-            message.setText("Conteudo do Email");
+            message.setSubject(in.assunto);//Assunto
+            message.setText(in.corpo);
             /**Método para enviar a mensagem criada*/
             Transport.send(message);
 
@@ -50,5 +53,6 @@ public class Main {
         } catch (MessagingException e) {
             throw new RuntimeException(e);
         }
+        System.out.println();
     }
 }
